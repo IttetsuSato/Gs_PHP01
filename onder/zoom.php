@@ -5,8 +5,8 @@
   
   
   $zoom_url = 'https://api.zoom.us/v2/users/ittetsu51@docomo.ne.jp/meetings';
-  $zoom_api_key = "NfHBbpkZR_6gPoPitnri5g"; //ご自分のAPI Key
-  $zoom_api_secret = "94xeRcjqcGjFFGjSJYMHT3wmXhOAZixBnNcA"; //ご自分のAPI Secret
+  $zoom_api_key = "API KEY"; //ご自分のAPI Key
+  $zoom_api_secret = "API Secret"; //ご自分のAPI Secret
   $expiration = time() + 30; //Tokenの有効期限（秒）
   
   $header = urlsafe_base64_encode('{"alg":"HS256","typ":"JWT"}');//署名アルゴリズムとトークンタイプ
